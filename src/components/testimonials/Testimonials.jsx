@@ -10,7 +10,7 @@ export default function Testimonials() {
                 "https://i.ibb.co/qmHRDy4/germany-flag.jpg",
             icon: "assets/twitter.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+                "I went to a German school throughout my childhood until I was 12 years old.",
         },
         {
             id: 2,
@@ -20,7 +20,7 @@ export default function Testimonials() {
                 "https://i.ibb.co/jZphKr0/us-flag.jpg",
             icon: "assets/youtube.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+                "I use English on a daily basis since I use all the tools in this language, both in the workplace and personally.",
             featured: true,
         },
         {
@@ -31,7 +31,7 @@ export default function Testimonials() {
                 "https://i.ibb.co/D4w8JZ1/argentina-flag.jpg",
             icon: "assets/linkedin.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+                "My everyday language.",
         },
     ];
     return (
