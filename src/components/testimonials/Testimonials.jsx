@@ -8,7 +8,7 @@ export default function Testimonials() {
             title: "Oral, Writting and Speaking.",
             img:
                 "https://i.ibb.co/qmHRDy4/germany-flag.jpg",
-            icon: "assets/twitter.png",
+            icon: "assets/location_icon.png",
             desc:
                 "I went to a German school throughout my childhood until I was 12 years old.",
         },
@@ -18,7 +18,7 @@ export default function Testimonials() {
             title: "Oral, Writting and Speaking.",
             img:
                 "https://i.ibb.co/jZphKr0/us-flag.jpg",
-            icon: "assets/youtube.png",
+            icon: "assets/location_icon.png",
             desc:
                 "I use English on a daily basis since I use all the tools in this language, both in the workplace and personally.",
             featured: true,
@@ -29,7 +29,7 @@ export default function Testimonials() {
             title: "Oral, Writting and Speaking.",
             img:
                 "https://i.ibb.co/D4w8JZ1/argentina-flag.jpg",
-            icon: "assets/linkedin.png",
+            icon: "assets/location_icon.png",
             desc:
                 "My everyday language.",
         },
