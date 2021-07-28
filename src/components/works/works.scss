@@ -99,13 +99,13 @@
             h2 {
               font-size: 20px;
 
-              @include mobile{
+              @include mobile {
                 font-size: 13px;
               }
             }
             p {
               font-size: 13px;
-              @include mobile{
+              @include mobile {
                 display: none;
               }
             }

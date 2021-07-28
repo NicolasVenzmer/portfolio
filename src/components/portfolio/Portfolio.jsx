@@ -3,11 +3,8 @@ import { useState } from "react"
 import { useEffect } from "react"
 import "./portfolio.scss"
 import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio,
+    Angular,
+    React,
 } from "../../data";
 
 export default function Portfolio() {
@@ -16,50 +13,29 @@ export default function Portfolio() {
 
     const list = [
         {
-            id: "featured",
-            title: "Featured",
+            id: "Angular",
+            title: "Angular",
         },
         {
-            id: "web",
-            title: "Web App",
-        },
-        {
-            id: "mobile",
-            title: "Mobile App",
-        },
-        {
-            id: "design",
-            title: "Design",
-        },
-        {
-            id: "content",
-            title: "Content",
-        },
+            id: "React",
+            title: "React",
+        }
     ];
 
     useEffect(() => {
         switch (selected) {
-            case "featured":
-                setData(featuredPortfolio);
+            case "Angular":
+                setData(Angular);
                 break;
-            case "web":
-                setData(webPortfolio);
-                break;
-            case "mobile":
-                setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "content":
-                setData(contentPortfolio);
+            case "React":
+                setData(React);
                 break;
             default:
-                setData(featuredPortfolio);
+                setData(Angular);
         }
     }, [selected]);
 
-    return (
+    return (  
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
@@ -72,14 +48,17 @@ export default function Portfolio() {
                     />
                 ))}
             </ul>
+            <h3 id="h3">Web Pages</h3>
             <div className="container">
                 {data.map((d) => (
+                    <a href={d.url} target="_blank">
                     <div className="item">
                         <img
                             src={d.img}
                             alt="" />
                         <h3>{d.title}</h3>
                     </div>
+                    </a>
                 ))}
             </div>
         </div>

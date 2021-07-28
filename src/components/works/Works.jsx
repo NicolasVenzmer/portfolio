@@ -6,19 +6,34 @@ export default function Works() {
     const data = [
         {
             id: "1",
+            icon: "./assets/logo-udemy.jfif",
+            title: "Universidad JavaScript 2021 - Udemy",
+            desc:
+                "The following certificate was made by my own interest.",
+            desc2:
+                "Obtained in 2021",
+            img:
+                "https://i.ibb.co/BcdZ7QW/Certificado-Java-Script-de-Cero-a-Master-2021.jpg",
+        },
+        {
+            id: "2",
             icon: "./assets/CiscoCertified_Logo.jpg",
             title: "Cisco Certification CCNA 1",
             desc:
                 "The following certificate was made at UADE.",
+            desc2:
+                "Obtained in 2018",
             img:
                 "https://i.ibb.co/xHgGyYP/Certificado-3.jpg",
         },
         {
-            id: "2",
+            id: "3",
             icon: "./assets/CiscoCertified_2_Logo.jpg",
             title: "Cisco Certification CCNA 2",
             desc:
                 "The following certificate was made at UADE.",
+            desc2:
+                "Obtained in 2018",
             img:
                 "https://i.ibb.co/jk9pGKG/Certificado-4.jpg",
         },
@@ -46,7 +61,7 @@ export default function Works() {
                                     </div>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc}</p>
-                                    <span>Obtained in 2018</span>
+                                    <span>{d.desc2}</span>
                                 </div>
                             </div>
                             <div className="right">

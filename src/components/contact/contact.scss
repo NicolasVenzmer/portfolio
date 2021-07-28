@@ -2,30 +2,47 @@
 
 .contact {
   background-color: white;
-  display: flex;
+  display: center;  
+  overflow: hidden;
+
+  .footer{
+    text-align: center;
+    align-items: flex-end;
+  }
 
   @include mobile {
     flex-direction: column;
   }
 
+  #hr{
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+
+  #h4{
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+
   .left {
-    flex: 1;
+    flex:2;
     overflow: hidden;
 
     img {
+      width: 65%;
       height: 100%;
+      overflow: hidden;
     }
   }
   .right {
-    flex: 1;
-    display: flex;
+    display: right;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: right;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: center;
-
-    h2 {
-      font-size: 30px;
-    }
 
     form {
       width: 70%;
