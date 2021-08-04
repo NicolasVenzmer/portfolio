@@ -18,14 +18,13 @@ export const Angular = [
   export const React = [
     {
       id: 1,
-      title: "Proximamente..",
-      img: 
-      "./assets/logo_mantenimiento.jpg",
+      title: "Netflix Clone",
+      img: "./assets/netflix_logo.png",
+      url: "https://netflix-clone-dca91.web.app/"
     },
     {
       id: 2,
-      title: "Proximamente..",
-      img: 
-      "./assets/logo_mantenimiento.jpg",
-    }
+      title: "Coming Soon..",
+      img: "./assets/logo_mantenimiento.jpg",
+    },
   ];
