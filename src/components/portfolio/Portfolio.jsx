@@ -13,25 +13,25 @@ export default function Portfolio() {
 
     const list = [
         {
-            id: "Angular",
-            title: "Angular",
-        },
-        {
             id: "React",
             title: "React",
+        },
+        {
+            id: "Angular",
+            title: "Angular",
         }
     ];
 
     useEffect(() => {
         switch (selected) {
-            case "Angular":
-                setData(Angular);
-                break;
             case "React":
                 setData(React);
                 break;
-            default:
+            case "Angular":
                 setData(Angular);
+                break;
+            default:
+                setData(React);
         }
     }, [selected]);
 
